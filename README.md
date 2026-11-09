@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DOM y React Native – Contador de Likes
 
 Proyecto académico del SENA: **De la Web al Móvil: Creando tu primer Contador de clics**.
@@ -38,3 +39,6 @@ https://github.com/toquicaromel701jcm-dot/DOM-y-React-native
 - [ ] Ejecutar la versión móvil con Expo Go.
 - [ ] Tomar capturas propias de ambas versiones.
 - [ ] Completar instructor y centro de formación en la bitácora.
+=======
+# DOM-y-React-native
+>>>>>>> 274b4ef9677f75ef05be6b54cfa8acd7cbfd181c
