@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Contador de Likes",
+    "slug": "contador-likes-movil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#f1f5f9" },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
