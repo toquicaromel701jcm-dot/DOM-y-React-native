@@ -30,3 +30,11 @@ Escanea el QR con Expo Go. Si la versión de Expo Go de tu teléfono no es compa
 https://github.com/toquicaromel701jcm-dot/DOM-y-React-native
 
 > Antes de entregar, ejecuta y prueba ambas versiones, toma capturas reales y completa los datos pendientes de la portada.
+
+## Lista de verificación antes de entregar
+- [ ] Probar sumar, restar y reiniciar en web.
+- [ ] Comprobar que cada acción aparece con hora en la tabla.
+- [ ] Comprobar el cambio de color al superar 10 likes.
+- [ ] Ejecutar la versión móvil con Expo Go.
+- [ ] Tomar capturas propias de ambas versiones.
+- [ ] Completar instructor y centro de formación en la bitácora.
