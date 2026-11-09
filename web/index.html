@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contador de likes con registro de interacciones">
+  <title>Contador de Likes | DOM</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">Proyecto de aprendizaje · Desarrollo web</p>
+    <h1>Interactividad con el DOM</h1>
+    <p class="description">Presiona los botones para cambiar el contador y registrar la hora de cada interacción.</p>
+    <output id="contador" class="counter" aria-live="polite">0</output>
+    <p id="estado" class="status">¡Vamos a comenzar!</p>
+    <div class="actions">
+      <button id="btn-like" class="btn btn-primary">♥ Me gusta</button>
+      <button id="btn-restar" class="btn btn-secondary">− Restar</button>
+      <button id="btn-reset" class="btn btn-light">Reiniciar</button>
+    </div>
+    <section class="history">
+      <div class="history-heading">
+        <h2>Historial de interacciones</h2>
+        <span id="total-registros">0 registros</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>N.º</th><th>Acción</th><th>Likes</th><th>Hora</th></tr></thead>
+          <tbody id="registros">
+            <tr id="vacio"><td colspan="4">Todavía no hay interacciones.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <footer>Aplicación demostrativa · HTML, CSS y JavaScript</footer>
+  </main>
+</body>
+</html>
